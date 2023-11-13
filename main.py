@@ -33,6 +33,6 @@ elif number(a,b,c)==0:
 
 else:
     print("This equation have no real root")
-
+quit()
 
 
