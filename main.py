@@ -1,12 +1,12 @@
 print("Hello Stephen, This is Leo's homework.")
 def number(a,b,c):
-    delta=(b**2-4*a*c)**(1/2)
+    delta=(b**2-4*a*c)
     return int(delta.real)
 a=int(input("tell me a:"))
 b=int(input("tell me b:"))
 c=int(input("tell me c:"))
 def root(a,b,c):
-    delta = (b ** 2 - 4 * a * c) ** (1 / 2)
+    delta = (b ** 2 - 4 * a * c)
     if delta.real>= 0:
         anwser1 = (-b + delta) / (2 * a)
         anwser2 = (-b - delta) / (2 * a)
